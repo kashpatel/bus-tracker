@@ -1,0 +1,19 @@
+html,
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+[class^='MuiGridListTile-tile-'] {
+    overflow: unset !important;
+}
+
+[class^='MuiGridList-root'] {
+    overflow-y: unset !important;
+}
